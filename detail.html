@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="UTF-8">
+  <link href="styles/style.css" type="text/css" rel="stylesheet">
+  <title>Home ING</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Livvic&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--Hier begint de header-->
+
+  <Header>
+    <!--In de header staat de navigatie en de header van de pagina-->
+    <div>
+      <!--      deze div is puur voor stijling-->
+
+      <!--Hier begint het menu-->
+
+      <nav>
+
+        <div class="sidebar">
+
+          <h2 id="Navigatie">Menu</h2>
+          <div>
+            <ul>
+              <li><a href="">Producten</a></li>
+              <li><a href="">Advies</a></li>
+              <li><a href="">Punten</a></li>
+              <li><a href="">Service en contact</a></li>
+            </ul>
+
+            <ul>
+              <li><a href="">Particulier</a></li>
+              <li><a href="">Personal banking</a></li>
+              <li><a href="">Private banking</a></li>
+              <li><a href="">Zakelijk</a></li>
+              <li><a href="">ING in English</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <button id="burger" type="button"></button>
+
+      </nav>
+
+      <img src="images/ing-logo-logotype-lion.png" alt="logo ing" class="logo">
+      <button type="button">Inloggen</button>
+
+      <form>
+        <input type="text" placeholder="Zoeken">
+        <input type="submit" value="">
+      </form>
+
+    </div>
+
+    <!--Hier eindigt het menu-->
+
+    <!--   Hier begint de header (foto met tekst + button)-->
+
+    <div id="headerpaginatwee">
+      <h1>Thuis een rekening openen</h1>
+      <h2> Met je Android smartphone</h2>
+    </div>
+
+    <!--   Hier eindigt de header (foto met tekst + button)-->
+
+  </Header>
+
+  <!--Hier eindigt de header-->
+
+  <!--Hier begint de main-->
+
+  <main id="mainpaginatwee">
+    <!--In de main staan alle artikelen van de pagina-->
+
+    <article>
+
+
+      <section>
+        <h1>Een rekening openen met je mobiel</h1>
+        <p>Klant worden en je eerste Betaal- of Studentenrekening openen met je smartphone. Lekker gemakkelijk vanuit je eigen huis. Je hoeft de deur er niet voor uit.</p>
+      </section>
+
+      <section>
+        <h2>Open nu je Betaalrekening</h2>
+        <ul>
+          <li>Direct een mobiele Betaalpas aan te maken en te gebruiken</li>
+          <li>Fysieke Betaalpas na maximaal 5 werkdagen in huis</li>
+          <li>Voor € 1,55 per maand</li>
+          <li>Gratis voor studenten</li>
+        </ul>
+        <a href=""> > Meer over Mobiel Betalen</a>
+      </section>
+
+      <section>
+        <h2>Check of je de rekening kunt openen met je mobiel</h2>
+        <p>Hier is het volgende voor nodig:</p>
+        <ul>
+          <li>Je hebt een Android smartphone met een camera en NFC (dit vind je in de telefooninstellingen)</li>
+          <li>Je bent 18 jaar of ouder</li>
+          <li>Je bent nog geen klant bij ING</li>
+          <li>Je woont in Nederland</li>
+          <li>Je hebt een Nederlands paspoort of identiteitskaart (geen rijbewijs)</li>
+          <li>Je opent de rekening alleen voor jezelf (niet gezamenlijk met een ander)</li>
+        </ul>
+        <button type="button" class="artikelbutton">Download de app</button>
+        <p>Of scan de QR-code (deze is helaas niet zichtbaar in Internet Explorer):</p>
+        <img src="images/qrcode.png" alt="Dit is een qr code">
+      </section>
+
+      <section>
+        <h1>Kun je de rekening niet met je mobiel openen?</h1>
+        <p>Dan regelen we het graag voor je op een ING-kantoor. Maak dan online een afspraak.</p>
+        <a href=""> > Meer over Mobiel Betalen</a>
+      </section>
+
+    </article>
+
+    <section>
+      <h2>Meer informatie</h2>
+      <ul>
+        <li><a href=""> > Vergelijking betaaldiensten</a></li>
+        <li><a href=""> > Kostenoverzicht ING Betaalproducten (pdf)</a></li>
+        <li><a href=""> > Voorwaarden en overige regelingen voor particuliere rekeninghouders (pdf)</a></li>
+      </ul>
+    </section>
+
+  </main>
+
+  <!--Hier eindigt de main-->
+
+  <!--Deze div zorgt voor de kleine witte ruimte tussen de main en de footer-->
+  <div></div>
+
+  <!--  Hier begint de footer-->
+
+  <footer>
+    <!--   In de footer staan linkjes naar andere pagina's en een formulier-->
+    <form>
+      <fieldset>
+        <legend>Persoonlijke informatie</legend>
+
+        <label for="naam">Voornaam:</label>
+        <input type="text" name="naam" id="naam">
+
+        <label for="achternaam">Achternaam:</label>
+        <input type="text" name="achternaam" id="achternaam">
+
+        <label for="telefoon">Telefoonnummer:</label>
+        <input type="tel" name="telefoon" id="telefoon" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+
+        <label for="datum">Geboortedatum:</label>
+        <input type="date" name="datum" id="datum">
+      </fieldset>
+
+      <fieldset>
+        <legend>Contact informatie</legend>
+
+        <label for="email">E-mail adres:</label>
+        <input type="email" name="naam" id="email">
+
+        <label for="adres">Adres:</label>
+        <input type="text" name="achternaam" id="adres">
+        <input type="submit" value="Submit">
+      </fieldset>
+
+    </form>
+
+    <ul>
+      <li><a href="">Over ING</a></li>
+      <li><a href="">ING in English</a></li>
+      <li><a href="">Privacy en cookies</a></li>
+      <li><a href="">Toegankelijkheid</a></li>
+      <li><a href="">Werken bij ING</a></li>
+      <li><a href="">Veilig bankieren</a></li>
+      <li><a href="">Disclaimer</a></li>
+      <li><a href="">Duurzaamheid</a></li>
+    </ul>
+
+
+    <p>Volg ons:</p>
+    <img src="images/socialmedia.jpg" alt="header foto apple pay">
+
+  </footer>
+
+  <!--  Hier eindigt de footer-->
+
+  <script src="script.js"></script>
+
+  <!--
+  Bronnen:
+
+  Foto's + content:
+  https://www.ing.nl/particulier/index.html
+
+  Fonts:
+  https://fonts.google.com/
+
+  Hulp gekregen van:
+  Inju Michorius
+  Sergio Eijben
+  David van Rumpt
+-->
+
+  <!--
+Meta data:
+
+Anna Boomsma
+500801519
+Klas: 204
+Leraar: Janno Kapritsias
+Datum van inleveren: 5-11-2019
+-->
+
+</body>
+
+</html>

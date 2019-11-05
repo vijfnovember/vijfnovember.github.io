@@ -1,0 +1,829 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --oranje: #fc6220;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+
+}
+
+a:hover{
+  cursor: pointer;
+}
+
+
+body > div {
+  height: 0.2rem;
+  background-color: white;
+}
+
+body {
+  background-color: #F5F5F5;
+  font-family: 'Livvic', sans-serif;
+}
+
+/*DIT IS VOOR MOBIEL*/
+
+input {
+  display: none;
+}
+
+/*HEADER*/
+
+
+
+.logo {
+  width: 7rem;
+  margin: 0.5rem 0rem 0.5rem 0.2rem;
+}
+
+header div:first-child {
+  background-color: white;
+}
+
+/*inlogbutton*/
+header div:first-child > button {
+  font-size: 1rem;
+  color: white;
+  border: white;
+  border-width: 0.5px;
+  border-radius: 4px;
+  padding: 0.3rem 1rem 0.3rem 1rem;
+  background-color: var(--oranje);
+  margin-top: 0.7rem;
+  margin-right: 4rem;
+  font-family: 'Livvic', sans-serif;
+  float: right;
+}
+
+header div:first-child > button:hover {
+  border: solid .5px var(--oranje);
+  background-color: white;
+  color: var(--oranje);
+  cursor: pointer;
+}
+
+
+/*Hamburgermenu*/
+
+nav button {
+  background-image: url(../images/burger.png);
+  height: 2.5rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 2.5rem;
+  background-size: 1.5rem;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-position: center;
+  padding: 0.2rem;
+  margin: 0.4rem;
+  border: solid 1px lightgray;
+  border-radius: 5px;
+}
+
+.sidebar {
+
+  transform: translateX(150%);
+  /*    border: solid red;*/
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #F5F5F5;
+}
+
+.active {
+  transform: translateX(0%);
+}
+
+
+nav h2 {
+  background-color: #F5F5F5;
+  padding: 0.9rem;
+  text-align: center;
+  color: #333333;
+  font-size: 1.2rem;
+  font-weight: lighter;
+  border-bottom: solid 0.5px lightgray;
+}
+
+nav div button {
+  background-image: url(../images/kruisie.png);
+  height: 2.5rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 2.5rem;
+  background-size: 1.5rem;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-position: center;
+  padding: 0.2rem;
+  margin: 0.4rem;
+  border: solid 1px lightgray;
+  border-radius: 5px;
+  font-family: 'Livvic', sans-serif;
+}
+
+
+nav a {
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+}
+
+nav li {
+  padding: 0.7rem 0.7rem 0.7rem 1.2rem;
+  font-weight: lighter;
+  color: #333;
+  list-style-type: none;
+}
+
+nav ul:first-child li {
+  border-bottom: solid 0.5px lightgray;
+  background-color: white;
+}
+
+
+nav ul:last-child li {
+  border-bottom: solid 0.5px lightgray;
+  background-color: #F5F5F5;
+}
+
+/*einde hamburger*/
+
+/*header pagina 1*/
+header > div:last-child {
+  /*  background-color: #fc6220;*/
+  background-image: url("../images/beter.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: 'Livvic', sans-serif;
+  color: white;
+  padding: 1rem;
+  width: 100%;
+
+}
+
+div > h2 {
+  font-weight: 30;
+  padding-bottom: 1rem;
+}
+
+
+header div:last-child button {
+  font-size: 1.2rem;
+  border: red;
+  border-radius: 8px;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  color: white;
+  background-color: var(--oranje);
+  font-family: 'Livvic', sans-serif;
+}
+
+header div:last-child button:hover {
+  border: solid .5px #fc6220;
+  background-color: white;
+  color: var(--oranje);
+  cursor: pointer;
+}
+/*einde header pagina 1*/
+
+/*header pagina 2*/
+#headerpaginatwee {
+height: 174px;
+  background-image: url("../images/maybe.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/*einde header pagina 2*/
+
+
+/*EINDE HEADER*/
+
+/*MAIN*/
+
+/*main pagina 1*/
+main {
+  margin-bottom: 3rem;
+}
+
+article {
+  width: 90%;
+  border-radius: 7px;
+  border-style: solid;
+  border-color: lightgray;
+  border-width: thin;
+  margin: auto;
+  padding: 2rem 2rem 3rem 2rem;
+  margin-top: 1rem;
+  font-family: 'Livvic', sans-serif;
+  box-shadow: 3px 3px 5px lightgrey;
+  background-color: white;
+}
+
+h3 {
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: var(--oranje);
+}
+
+h4 {
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: var(--oranje);
+}
+
+article > img {
+  border-radius: 8px;
+  width: 100%;
+}
+
+p {
+  margin-top: 1rem;
+}
+
+article > button {
+  font-size: 1.2rem;
+  color: white;
+  border: white;
+  border-width: 0.5px;
+  border-radius: 8px;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  background-color: var(--oranje);
+  margin-top: 1.5rem;
+  font-family: 'Livvic', sans-serif;
+}
+
+
+article > button:hover {
+  border: solid .5px var(--oranje);
+  background-color: white;
+  color: var(--oranje);
+  cursor: pointer;
+}
+
+article > button:active {
+  color: black;
+  border: solid .5px black;
+  text-decoration: underline;
+}
+
+article > button:focus {
+  border: solid .5px var(--oranje);
+  background-color: lightgray;
+  color: var(--oranje);
+}
+
+
+article a {
+  padding: 0.5rem;
+}
+
+article a:first-letter {
+  color: var(--oranje);
+  font-size: 1.6rem;
+}
+/*einde main pagina 1*/
+
+/*main pagina 2*/
+
+
+#mainpaginatwee{
+  background-color: white;
+  margin: 0;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+#mainpaginatwee article {
+  width: 100%;
+  border-radius: 0px;
+  border-style: solid;
+  border-color: lightgray;
+  border-width: 0px;
+  margin: auto;
+  padding: 2rem 1rem 3rem 1rem;
+  margin-top: 0rem;
+  font-family: 'Livvic', sans-serif;
+  box-shadow: 0px 0px 0px white;
+  background-color: white;
+}
+
+#mainpaginatwee section{
+  margin-bottom: 3rem;
+}
+
+#mainpaginatwee section h1 {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: var(--oranje);
+}
+
+#mainpaginatwee p{
+  font-size: 1rem;
+}
+
+#mainpaginatwee section:first-child p{
+  font-size: 1.35rem;
+  font-weight: 50;
+  margin-top: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+#mainpaginatwee section h2 {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: var(--oranje);
+
+}
+
+#mainpaginatwee section li{
+  list-style-image: url(../images/vinkje20.png);
+  padding: 0.2rem 0rem 0.3rem 0.5rem;
+}
+
+#mainpaginatwee section ul{
+  padding-left: 1.7rem;
+  margin-top: 1rem;
+}
+
+#mainpaginatwee button{
+font-size: 1.2rem;
+  color: white;
+  border: white;
+  border-width: 0.5px;
+  border-radius: 8px;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  background-color: var(--oranje);
+  margin-top: 1.5rem;
+  font-family: 'Livvic', sans-serif;
+}
+
+#mainpaginatwee button:hover{
+  border: solid .5px var(--oranje);
+  background-color: white;
+  color: var(--oranje);
+  cursor: pointer;
+}
+
+#mainpaginatwee button:focus{
+  border: solid .5px var(--oranje);
+  background-color: lightgray;
+  color: var(--oranje);
+}
+
+#mainpaginatwee article img{
+  width: 8rem;
+  margin-top: 2rem;
+}
+
+#mainpaginatwee > section{
+  width: 95%;
+  border-radius: 7px;
+  border-style: solid;
+  border-color: lightgray;
+  border-width: thin;
+  margin: auto;
+  padding: 2rem 2rem 3rem 2rem;
+  margin-top: 1rem;
+  font-family: 'Livvic', sans-serif;
+  box-shadow: 3px 3px 5px lightgrey;
+  background-color: white;
+}
+
+#mainpaginatwee > section li{
+  list-style-type: none;
+  list-style-image: none;
+  padding-top: 0.3rem;
+}
+
+#mainpaginatwee > section a{
+  padding: 0;
+}
+
+#mainpaginatwee > section ul{
+  padding: 0;
+}
+
+#mainpaginatwee > section a:first-letter {
+  color: var(--oranje);
+  font-size: 1.6rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*einde main pagina 2*/
+
+/*EINDE MAIN*/
+
+
+
+/*FOOTER*/
+
+form{
+  display: none;
+}
+footer {
+  background-color: #EBEBEB;
+  text-align: center;
+  height: 25rem;
+  color: #333333;
+  padding-top: 2rem;
+
+}
+
+footer ul li {
+  margin: auto;
+}
+
+footer li a {
+  text-decoration: none;
+  list-style-type: none;
+  padding-top: 0.5rem;
+  font-size: 1rem;
+  width: 10rem;
+  margin: auto;
+}
+
+footer li a:hover {
+  color: var(--oranje);
+  text-decoration: underline;
+}
+
+footer li:nth-child(3n+1) a:hover {
+  color: green;
+}
+
+footer li:nth-child(2) a:hover {
+  color: blue;
+}
+
+
+footer > p {
+  color: #767676;
+  padding-top: 1rem;
+  padding-left: 2rem;
+}
+
+footer > img {
+  width: 15rem;
+  margin-top: 0.6rem;
+}
+
+/*EINDE FOOTER*/
+
+
+/*DIT IS VOOR TABLET*/
+
+@media screen and (min-width: 450px) {
+
+  body {
+    display: ;
+  }
+
+  article {
+    width: 26rem;
+    border-radius: 7px;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: thin;
+    margin: auto;
+    padding: 2rem 2rem 3rem 2rem;
+    margin-top: 1rem;
+    font-family: 'Livvic', sans-serif;
+    box-shadow: 3px 3px 5px lightgrey;
+    background-color: white;
+  }
+
+  #mainpaginatwee > section{
+  width: 25rem;
+  border-radius: 7px;
+  border-style: solid;
+  border-color: lightgray;
+  border-width: thin;
+    margin: 0;
+  padding: 2rem 2rem 3rem 2rem;
+  margin-top: 1rem;
+  font-family: 'Livvic', sans-serif;
+  box-shadow: 3px 3px 5px lightgrey;
+  background-color: white;
+}
+
+  header form {
+    display: inline;
+  }
+
+  header input:first-child {
+    display: inline;
+    font-family: 'Livvic', sans-serif;
+    padding-left: 0.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    display: inline;
+    float: right;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    width: 8rem;
+  }
+
+  header input:last-child {
+    background-image: url(../images/zoek.png);
+    background-size: 1rem;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: center;
+    display: inline;
+    font-family: 'Livvic', sans-serif;
+    padding-left: 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    display: inline;
+    float: right;
+    margin-right: -7.9rem;
+    margin-top: 1.15rem;
+    width: 1.5rem;
+    border: none;
+  }
+
+
+}
+
+/*EINDE TABLET*/
+
+
+
+@media screen and (min-width: 800px) {
+
+  #mainpaginatwee{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+
+  }
+#mainpaginatwee article {
+  width: 50%;
+  border-radius: 0px;
+  border-style: solid;
+  border-color: lightgray;
+  border-width: 0px;
+  margin: 0rem;
+  padding: 2rem 1rem 3rem 1rem;
+  margin-top: 0rem;
+  font-family: 'Livvic', sans-serif;
+  box-shadow: 0px 0px 0px white;
+  background-color: white;
+  }
+
+#mainpaginatwee > section{
+  width: 20rem;
+  border-radius: 7px;
+  border-style: solid;
+  border-color: lightgray;
+  border-width: thin;
+  margin: 0rem;
+  padding: 2rem 2rem 3rem 2rem;
+  margin-top: 1rem;
+  margin-right: 2rem;
+  font-family: 'Livvic', sans-serif;
+  box-shadow: 3px 3px 5px lightgrey;
+  background-color: white;
+  height: 20rem;
+}
+
+
+
+
+
+
+}
+
+/*DIT IS VOOR DESKTOP*/
+
+@media screen and (min-width: 1000px) {
+
+
+
+  /*  navigatie desktop*/
+
+  .logo {
+    width: 10rem;
+    margin: 0.5rem 0rem 0.5rem 0.2rem;
+  }
+
+  nav button {
+    display: none;
+  }
+
+  .sidebar {
+    transform: translateX(0%);
+    position: static;
+    top: 0;
+    width: 100vw;
+    height: 5vh;
+    background-color: #F5F5F5;
+  }
+
+  nav h2 {
+    display: none;
+  }
+
+  nav div {
+    display: flex;
+    flex-direction: column;
+    height: 5vh;
+  }
+
+  nav ul {
+    display: flex;
+
+  }
+
+  nav ul:first-child {
+    display: inline-flex;
+    float: left;
+    margin-left: 13rem;
+    margin-top: 3.5rem;
+    width: 29rem;
+
+
+  }
+
+  nav ul:first-child li {
+    border-bottom: none;
+  }
+
+  ul li a:hover {
+    color: var(--oranje);
+    text-decoration: underline;
+  }
+
+
+
+  nav ul:last-child {
+    position: absolute;
+    width: 100%;
+    background-color: #F5F5F5;
+    border-bottom: solid 1px #F5F5F5;
+  }
+
+  nav ul:last-child li {
+    border-bottom: none;
+  }
+
+
+  /*navigatie desktop einde*/
+
+
+
+  ul > button {
+    background-color: var(--oranje);
+    border-radius: 5px;
+    color: white;
+    padding: 0.4rem;
+    font-size: 1rem;
+    border: none;
+    align-content: right;
+  }
+
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    max-width: 400rem;
+    padding-top: 2rem;
+  }
+
+  article {
+    width: 26rem;
+    border-radius: 7px;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: thin;
+    margin: 1.5rem;
+    padding: 2rem 2rem 3rem 2rem;
+    margin-top: 1rem;
+    font-family: 'Livvic', sans-serif;
+    box-shadow: 3px 3px 5px lightgrey;
+    background-color: white;
+  }
+
+  #mainpaginatwee article {
+  width: 50%;
+  border-radius: 0px;
+  border-style: solid;
+  border-color: lightgray;
+  border-width: 0px;
+  margin: 0rem;
+  padding: 2rem 1rem 3rem 2rem;
+  margin-top: 0rem;
+    margin-left: 3rem;
+  font-family: 'Livvic', sans-serif;
+  box-shadow: 0px 0px 0px white;
+  background-color: white;
+  left: 0;
+}
+  #mainpaginatwee > section{
+    margin-right: 6rem;
+  }
+
+
+  /*  Footer*/
+
+  footer {
+    text-align: left;
+    height: 35rem;
+
+  }
+
+  footer ul {
+    float: left;
+    text-align: left;
+    padding-left: 3rem;
+  }
+
+  footer fieldset {
+    width: 20rem;
+    border: none;
+  }
+
+  footer li{
+    list-style-type: none;
+  }
+
+  footer fieldset label{
+    padding: 3rem 0rem 0.5rem 0rem;
+  }
+
+  footer input {
+    display: block;
+    height: 2rem;
+    width: 14rem;
+  }
+
+  footer legend {
+    font-size: 1.5rem;
+    text-align: left;
+    border: none;
+    padding-bottom: 1.5rem;
+  }
+
+  footer fieldset:last-child input:last-child{
+    width: 5rem;
+    margin-top: 2rem;
+    background-color: var(--oranje);
+    height: 2rem;
+    color: white;
+    border-radius: 8px;
+
+  }
+
+footer fieldset:first-child input:last-child{
+ margin-bottom: 2rem;
+
+  }
+
+  form{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    float: right;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
